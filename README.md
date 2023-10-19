@@ -12,7 +12,9 @@ Please note this has been developed for MySQL backed Sentry and Metastore. Under
 Open the file and provide below details before running this script. Please note nameservice is case-sensitive
 
 hdfs_nameservice="nameservice1"
+
 db_user_name="root"
+
 db_password="xxxxxx"
 
 Run the script without any input arguments
@@ -63,7 +65,9 @@ The API call will not remove any existing HDFS policies and will only create/upd
 Open the file and provide below details before running this script.
 
 ranger_url="https://vvs-cdpchf15-ec2-4.vpc.cloudera.com:6182"
+
 ranger_admin_username="admin"
+
 ranger_admin_password="xxxxxxxx"
 
 Run the script with input file name i.e. the previously extracted csv files
